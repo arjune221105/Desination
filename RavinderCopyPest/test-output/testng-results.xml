@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="3" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[-------DataBase Connection Stabilished------]]>
+    </line>
+    <line>
+      <![CDATA[Browser got Maximize successfully]]>
+    </line>
+    <line>
+      <![CDATA[Browser got Maximize successfully]]>
+    </line>
+    <line>
+      <![CDATA[Login Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Login Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Logout Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Browser got Closed Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Logout Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Browser got Closed Successfully]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-08-19T21:06:16 IST" name="Suite" finished-at="2024-08-19T21:06:53 IST" duration-ms="37026">
+    <groups>
+      <group name="smoke">
+        <method signature="ToCreateOrgnazation.toCreateOrgnazationTc_001()[pri:0, instance:Vtiger.contect.reposotory.ToCreateOrgnazation@6069db50]" name="toCreateOrgnazationTc_001" class="Vtiger.contect.reposotory.ToCreateOrgnazation"/>
+      </group> <!-- smoke -->
+      <group name="Regression">
+        <method signature="ToCreateContect.toCreatContect_001()[pri:0, instance:Vtiger.contect.reposotory.ToCreateContect@5c33f1a9]" name="toCreatContect_001" class="Vtiger.contect.reposotory.ToCreateContect"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2024-08-19T21:06:16 IST" name="Test" finished-at="2024-08-19T21:06:53 IST" duration-ms="37026">
+      <class name="Vtiger.contect.reposotory.ToCreateContect">
+        <test-method is-config="true" signature="beforsuifconfig()[pri:0, instance:Vtiger.contect.reposotory.ToCreateContect@5c33f1a9]" started-at="2024-08-19T21:06:16 IST" name="beforsuifconfig" finished-at="2024-08-19T21:06:16 IST" duration-ms="69" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[-------DataBase Connection Stabilished------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforsuifconfig -->
+        <test-method is-config="true" signature="beforclassconfig()[pri:0, instance:Vtiger.contect.reposotory.ToCreateContect@5c33f1a9]" started-at="2024-08-19T21:06:17 IST" name="beforclassconfig" finished-at="2024-08-19T21:06:26 IST" duration-ms="9939" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser got Maximize successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforclassconfig -->
+        <test-method is-config="true" signature="beformethodsconfig()[pri:0, instance:Vtiger.contect.reposotory.ToCreateContect@5c33f1a9]" started-at="2024-08-19T21:06:26 IST" name="beformethodsconfig" finished-at="2024-08-19T21:06:31 IST" duration-ms="4207" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beformethodsconfig -->
+        <test-method signature="toCreatContect_001()[pri:0, instance:Vtiger.contect.reposotory.ToCreateContect@5c33f1a9]" started-at="2024-08-19T21:06:31 IST" name="toCreatContect_001" finished-at="2024-08-19T21:06:50 IST" duration-ms="19151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toCreatContect_001 -->
+        <test-method is-config="true" signature="aftermethodconfig()[pri:0, instance:Vtiger.contect.reposotory.ToCreateContect@5c33f1a9]" started-at="2024-08-19T21:06:50 IST" name="aftermethodconfig" finished-at="2024-08-19T21:06:51 IST" duration-ms="954" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aftermethodconfig -->
+        <test-method is-config="true" signature="afterclassconfig()[pri:0, instance:Vtiger.contect.reposotory.ToCreateContect@5c33f1a9]" started-at="2024-08-19T21:06:51 IST" name="afterclassconfig" finished-at="2024-08-19T21:06:53 IST" duration-ms="2528" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser got Closed Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterclassconfig -->
+      </class> <!-- Vtiger.contect.reposotory.ToCreateContect -->
+      <class name="Vtiger.contect.reposotory.ToCreateOrgnazation">
+        <test-method is-config="true" signature="beforclassconfig()[pri:0, instance:Vtiger.contect.reposotory.ToCreateOrgnazation@6069db50]" started-at="2024-08-19T21:06:17 IST" name="beforclassconfig" finished-at="2024-08-19T21:06:27 IST" duration-ms="10064" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser got Maximize successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforclassconfig -->
+        <test-method is-config="true" signature="beformethodsconfig()[pri:0, instance:Vtiger.contect.reposotory.ToCreateOrgnazation@6069db50]" started-at="2024-08-19T21:06:27 IST" name="beformethodsconfig" finished-at="2024-08-19T21:06:32 IST" duration-ms="5332" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beformethodsconfig -->
+        <test-method signature="toCreateOrgnazationTc_001()[pri:0, instance:Vtiger.contect.reposotory.ToCreateOrgnazation@6069db50]" started-at="2024-08-19T21:06:32 IST" name="toCreateOrgnazationTc_001" finished-at="2024-08-19T21:06:52 IST" duration-ms="20536" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toCreateOrgnazationTc_001 -->
+        <test-method is-config="true" signature="aftermethodconfig()[pri:0, instance:Vtiger.contect.reposotory.ToCreateOrgnazation@6069db50]" started-at="2024-08-19T21:06:52 IST" name="aftermethodconfig" finished-at="2024-08-19T21:06:53 IST" duration-ms="270" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aftermethodconfig -->
+        <test-method is-config="true" signature="afterclassconfig()[pri:0, instance:Vtiger.contect.reposotory.ToCreateOrgnazation@6069db50]" started-at="2024-08-19T21:06:53 IST" name="afterclassconfig" finished-at="2024-08-19T21:06:53 IST" duration-ms="729" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser got Closed Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterclassconfig -->
+      </class> <!-- Vtiger.contect.reposotory.ToCreateOrgnazation -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
